@@ -32,4 +32,4 @@ Das sechste Kapitel (Community und Mitwirkende) enthält Informationen für alle
 
 Im siebten Kapitel (Monero-Integration für Entwickler) werden Zahlungsoptionen und nützliche Methoden zur Übermittlung von Adressen über OpenAlias (lesbar) und die Monero-URI (maschinenlesbar) erläutert. Entwickler für Händler-Zahlungsoptionen erfahren, wie sie über OpenAlias vereinfachte Adressen generieren. Entwickler lernen, wie sie mit der Monero-Blockchain über Remote Procedure Calls (RPC) an den Monero-Daemon interagieren. Eine Python-Implementierung enthält Informationen zur Ausführung grundlegender Aufgaben.
 
-Das achte Kapitel (Wallet-handbuch und Tipps zur Fehlerbehebung) enthält verschiedene Informationen zum Einrichten einer grafischen (GUI) oder terminalbasierten (CLI) Wallet, sowie Tipps zur Fehlerbehebung bei häufig auftretenden Problemen.
+Das achte Kapitel (Wallet-handbuch und Tipps zur Fehlerbehebung) enthält verschiedene Informationen zum Einrichten einer grafischen (GUI) oder terminalbasierten (CLI) Wallets, sowie Tipps zur Fehlerbehebung bei häufig auftretenden Problemen.
