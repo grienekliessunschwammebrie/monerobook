@@ -1,6 +1,6 @@
-# Preface
+# Vorwort
 
-## About the author
+## Ueber den Autor
 
 I am Nico (“SerHack”), an Italian security researcher, a Monero contributor, and the author of this book. Finding good resources and learning about cryptocurrencies can be a daunting task. For new users, it can be especially challenging to track down documentation written at an understandable technical level. When I first started learning about Monero, I had to spend a great deal of time seeking out and evaluating many different resources on the topic.
 
