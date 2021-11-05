@@ -1,4 +1,4 @@
-Glossar
+<h1><b>Glossar</h1></b>
 
 Konto
 
