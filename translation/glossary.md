@@ -1,6 +1,6 @@
 <h1><b>Glossar</h1></b>
 
-Konto
+<h2><b>Konto</h2></b>
 
 Konten wurden als Teil des Subadressen-Systems erstellt. Eine Brieftasche hat einen Seed. Von diesem Seed werden die privaten Spend- und View-Schlüssel der primären Adresse abgeleitet. Von diesen privaten Schlüsseln werden Subadressen abgeleitet. Subadressen werden in Konten gruppiert.
 
@@ -9,74 +9,90 @@ Diese primäre Adresse ist die erste Adresse des ersten Kontos in der Brieftasch
 Jedes Konto verfügt über ein eigenes Guthaben und kann mit mehreren Unteradressen verknüpft sein. Da es sich bei Konten nur um Gruppierungen von Unteradressen handelt, gibt es so etwas wie eine Kontoadresse nicht (es sei denn, Sie zählen die erste Unteradresse im Konto als "Kontoadresse").
 
 Da Konten und Subadressen deterministisch aus dem Seed abgeleitet werden, müssen Sie nur den Seed kennen, um die Struktur der Konten/Subadressen wiederherzustellen, wenn Sie eine Wallet wiederherstellen (obwohl alle Bezeichnungen, die Sie den Konten/Subadressen zuweisen, separat notiert werden müssen).
-Adresse
+
+<h2><b>Adresse</h2></b>
 
 Wenn Sie Monero an jemanden senden, benötigen Sie nur eine Information, und zwar die Monero-Adresse. Eine öffentliche Monero-Adresse besteht aus 95 Zeichen, die mit einer "4" beginnen.
-Luftspalt
+
+<h2><b>Air Gap</h2></b>
 
 Ein Air Gap, Air Wall oder Air Gapping ist eine Netzwerksicherheitsmaßnahme, die auf einem oder mehreren Computern eingesetzt wird, um sicherzustellen, dass ein sicheres Computernetzwerk physisch von ungesicherten Netzwerken, wie dem öffentlichen Internet oder einem ungesicherten lokalen Netzwerk, isoliert ist.
 
 Der Name leitet sich von der Technik ab, mit der ein Netz geschaffen wird, das physisch (mit einer konzeptionellen Luftlücke) von allen anderen Netzen getrennt ist. Die Luftlücke ist nicht unbedingt wörtlich zu nehmen, da Netze, die spezielle kryptografische Geräte verwenden, die Pakete über nicht vertrauenswürdige Netze tunneln und dabei Schwankungen in der Paketrate oder -größe vermeiden können, als Luftlücke betrachtet werden können, da Computer auf gegenüberliegenden Seiten der Lücke nicht kommunizieren können.
-ASIC
+
+<h2><b>ASIC/h2></b>
 
 Ein anwendungsspezifischer integrierter Schaltkreis (Application-Specific Integrated Circuit, ASIC) ist ein integrierter Schaltkreis (IC), der für einen bestimmten Zweck angepasst wurde und nicht für den allgemeinen Gebrauch bestimmt ist. Ein ASIC ist zum Beispiel ein Chip, der für ein digitales Diktiergerät oder einen hocheffizienten Bitcoin-Miner entwickelt wurde.
 ASIC-Resistenz
 
 ASIC-Resistenz bezieht sich auf Maßnahmen, die von einigen Kryptowährungen ergriffen werden, um sicherzustellen, dass ihr Mining-Algorithmus nicht mit diesen speziellen Geräten kompatibel ist. Siehe Kapitel 4, 5 und 6, um mehr darüber zu erfahren, wie die Monero-Gemeinschaft aktiv sicherstellt, dass unser CryptoNight-Algorithmus nur für CPU- und GPU-Miner zugänglich ist.
-Bitmonero
+  
+<h2><b>Bitmonero</h2></b>
 
 BitMonero, früherer Name für das Monero-Projekt, siehe Kapitel 1. Einige alte Referenzen sind immer noch enthalten; zum Beispiel werden Protokolle und die Blockchain standardmäßig im Ordner ~/.bitmonero gespeichert.
-Block
+  
+<h2><b>Block</h2></b>
 
 Ein Block ist ein Container mit Transaktionen, wobei im Durchschnitt alle 2 Minuten ein neuer Block zur Blockchain hinzugefügt wird.
 
 Blöcke enthalten auch eine spezielle Art von Transaktion, die Coinbase-Transaktion, die neu erstellte Monero zum Netzwerk hinzufügt. Blöcke werden durch den Prozess des Minings erstellt. Der Knoten, der den Block erfolgreich schürft, sendet ihn an alle mit ihm verbundenen Knoten, die den Block anschließend erneut senden, bis das gesamte Monero-Netzwerk ihn erhalten hat.
-Blockchain
+  
+<h2><b>Blockchain</h2></b>
 
 Eine Blockchain ist eine verteilte Datenbank, die kontinuierlich mit einer Aufzeichnung aller Transaktionen wächst, die mit einer bestimmten Kryptowährung stattgefunden haben. Diese Datenbank wird oft als Hauptbuch bezeichnet, da die Daten eine große Liste von Transaktionen enthalten, die stattgefunden haben. In Monero werden diese Transaktionen alle 2 Minuten (im Durchschnitt) in Blöcken zusammengefasst, und alle Miner und Knoten im Netzwerk haben Kopien dieser Blöcke.
-Bulletproofs
 
+<h2><b>Bulletproofs</h2></b>
+  
 Bulletproofs sind ein neues mathematisches System für überprüfbare maskierte Transaktionsbeträge. Bulletproofs schrumpft die Transaktionsgröße um ~80% und reduziert damit die Gebühren drastisch.
-Ändern Sie
+  
+<h2><b>Change</h2></b>
 
 Monero, die als Teil einer Transaktion verschickt werden und auf Ihr Konto zurückkehren, anstatt an einen anderen Empfänger zu gehen.
-Coinbase-Transaktion
+
+<h2><b>Coinbase-Transaktion</h2></b>
 
 Eine spezielle Art von Transaktion, die in jedem Block enthalten ist und eine kleine Menge an Monero enthält, die an den Miner als Belohnung für seine Mining-Arbeit gesendet wird.
-Befehlszeilenschnittstelle
+
+  
+  <h2><b>Befehlszeilenschnittstelle CLI</h2></b>
 
 Ein Command Line Interface (oder CLI) ist eine textbasierte Schnittstelle, die zur Eingabe von Befehlen über ein Terminal verwendet wird. Sie können die offizielle Monero CLI (kostenlos und quelloffen) unter https://getmonero.org/downloads/ herunterladen.
-Konsens
+
+<h2><b>Konsens</h2></b>
 
 Konsens beschreibt eine Eigenschaft von verteilten Netzwerken wie Monero, bei denen sich die meisten Teilnehmer an die Regeln halten und somit schlechte Teilnehmer ausschließen.
-Kryptowährung
+
+<h2><b>Kryptowährung</h2></b>
 
 Eine digitale Währung, bei der Verschlüsselungstechniken verwendet werden, um die Generierung von Währungseinheiten zu regeln und den Geldtransfer zu verifizieren, und die normalerweise unabhängig von einer Zentralbank funktioniert.
 
-Kryptografische Signatur
+<h2><b>Kryptografische Signatur</h2></b>
 
 Eine kryptografische Methode zum Nachweis des Eigentums an einer Information sowie zum Nachweis, dass die Information nach dem Signieren nicht verändert wurde.
-Decoys
+
+<h2><b>Decoys</h2></b>
 
 Bei der Konstruktion einer Monero-Transaktion bezieht sich der Begriff "Decoy" auf eine Ausgabe (die nicht dem Spender gehört), die pseudo-zufällig aus der Blockchain ausgewählt wird, um als Mix-In für die Ringsignatur zu dienen. Siehe Abschnitt 5.4.3.
-Stückelungen
+
+  
+<h2><b>Stückelungen</h2></b>
 
 Eine Stückelung ist eine genaue Beschreibung eines Währungsbetrags. Sie ist oft eine Untereinheit der Währung. Zum Beispiel ist ein Cent traditionell 1/100 einer bestimmten Währungseinheit.
 
 Monero-Stückelungsnamen fügen SI-Präfixe hinzu, nachdem das anfängliche "mo" weggelassen wurde, um die Verwendung zu erleichtern. Die kleinste Einheit von Monero ist 1 Piconero (0,000000000001 XMR). Der Plural für Monero ist moneroj.
 
-Name 	Base 	10 Amount
-piconero 	10⁻¹² 	0.000000000001
-nanonero 	10⁻⁹ 	0.000000001
-micronero 	10⁻⁶ 	0.000001
-millinero 	10⁻³ 	0.001
-centinero 	10⁻² 	0.01
-decinero 	10⁻¹ 	0.1
-monero 	10⁰ 	1
-decanero 	10¹ 	10
-hectonero 	10² 	100
-kilonero 	10³ 	1,000
-meganero 	10⁶ 	1,000,000
+  Name 	      Base 	10    ´Bertag
+  piconero 	  10⁻¹² 	    0.000000000001
+  nanonero 	  10⁻⁹ 	      0.000000001
+  micronero 	10⁻⁶ 	      0.000001
+  millinero 	10⁻³ 	      0.001
+  centinero 	10⁻² 	      0.01
+  decinero 	  10⁻¹ 	      0.1
+  monero 	    10⁰ 	      1
+  decanero 	  10¹ 	      10
+  hectonero 	10² 	      100
+  kilonero 	  10³ 	      1,000
+  meganero 	10⁶ 	        1,000,000
 
 Schwierigkeitsgrad
 
