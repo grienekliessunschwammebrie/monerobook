@@ -1,8 +1,8 @@
-Vorwort
+<h1><b>Vorwort</h1></b>
 
-Über den Autor
+<h2><b>Über den Autor</h2></b>
 
-Ich bin Nico („SerHack“), ein italienischer Sicherheitsexperte, ein Monero Enthusiast und der Autor dieses Buches. An gute  Informationen zu kommen und etwas über Kryptowährungen zu lernen, kann eine entmutigende Aufgabe sein. Für neue Benutzer kann es besonders schwierig sein, an Literatur zu kommen, die auf einem verständlichen technischen Level basiert. Als ich damit anfing, etwas über Monero zu lernen, musste ich viel Zeit damit verbringen, viele verschiedene Ressourcen zu diesem Thema zu suchen und zu analysieren.
+Ich bin Nico („SerHack“), ein italienischer Sicherheitsexperte, ein Monero Enthusiast und der Autor dieses Buches. An gute Informationen zu kommen und etwas über Kryptowährungen zu lernen, kann eine entmutigende Aufgabe sein. Für neue Benutzer kann es besonders schwierig sein, an Literatur zu kommen, die auf einem verständlichen technischen Level basiert. Als ich damit anfing, etwas über Monero zu lernen, musste ich viel Zeit damit verbringen, viele verschiedene Ressourcen zu diesem Thema zu suchen und zu analysieren.
 
 Ich habe mich entschlossen Mastering Monero zu schreiben, um Sie auf diesem Weg zu unterstützen, egal ob Sie Ihre erstes Wallet erstellen oder neugierig sind auf die tieferen technischen Details. Die ersten Kapitel richten sich an alle, die neugierig sind, warum und wie Monero verwendet wird. Sie enthalten leicht verständliche Erklärungen und Beispiele sowie Anweisungen für den praktischen Gebrauch. In  den späteren Kapiteln werden fortgeschrittenere Thematiken behandelt und Informationen für Entwickler zusammengestellt, die das Monero-Ökosystem aufbauen und dazu beitragen möchten.
 
@@ -14,7 +14,7 @@ Als ich die Bedeutung dieses Projekts erkannte, suchte ich sofort nach Wegen, um
 
 Während der Arbeit am Monero Integrations-Projekt habe ich festgestellt, dass das Fehlen einer umfassenden Anleitung, für Monero ein Hindernis sowohl für Endbenutzer und potenzielle Mitwirkende darstellt. Dieses Bedürfnis nach einer gründlichen Anleitung hat mich dazu inspiriert, Mastering Monero als universelle Ressource für unsere globale Gemeinschaft zu schreiben. Ich bin dankbar für die großzügige FFS-Unterstützung, die es ermöglicht hat, dieses Dokument als kostenloses eBook (und physisches Buch!) für die breite Öffentlichkeit zu veröffentlichen. Egal, ob Sie Mastering Monero von vorne bis hinten lesen oder durch Abschnitte springen, die für Ihre Fragen relevant sind, ich hoffe, Sie genießen es, etwas über Monero und die aufregenden Projekte in der Community zu lernen. 
 
-Wie diese Anleitung aufgebaut ist:
+<h2><b>Wie diese Anleitung aufgebaut ist:</h2></b>
 
 Die ersten beiden Kapitel dieses Buches sind eine einfache, nicht technische Einführungen in die Hauptpunkte und Fähigkeiten. Für Leser, die mehr über Details hinter den Kulissen erfahren möchten, enthalten die Kapitel 3 und 4 konzeptionelle, nicht mathematische Erklärungen zu den Datenschutzfunktionen und der Blockchain von Monero. In späteren Kapiteln werden komplexe technische Details zum Verständnis, zur Entwicklung und zur Integration von Monero behandelt.
 
