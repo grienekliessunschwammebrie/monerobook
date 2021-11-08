@@ -1,14 +1,14 @@
 <h1><b>Glossar</h1></b>
 
-<h2><b>Konto</h2></b>
+<h2><b>Account</h2></b>
 
-Konten wurden als Teil des Subadressen-Systems erstellt. Eine Brieftasche hat einen Seed. Von diesem Seed werden die privaten Spend- und View-Schlüssel der primären Adresse abgeleitet. Von diesen privaten Schlüsseln werden Subadressen abgeleitet. Subadressen werden in Konten gruppiert.
+Konten wurden als Teil des Subadressen-Systems erstellt. Eine Brieftasche hat einen Seed. Von diesem Seed werden die privaten Ausgaben- und Ansichts-Schlüssel der primären Adresse abgeleitet. Von diesen privaten Schlüsseln werden Subadressen abgeleitet. Subadressen werden in Konten gruppiert.
 
 Diese primäre Adresse ist die erste Adresse des ersten Kontos in der Brieftasche.
 
 Jedes Konto verfügt über ein eigenes Guthaben und kann mit mehreren Unteradressen verknüpft sein. Da es sich bei Konten nur um Gruppierungen von Unteradressen handelt, gibt es so etwas wie eine Kontoadresse nicht (es sei denn, Sie zählen die erste Unteradresse im Konto als "Kontoadresse").
 
-Da Konten und Subadressen deterministisch aus dem Seed abgeleitet werden, müssen Sie nur den Seed kennen, um die Struktur der Konten/Subadressen wiederherzustellen, wenn Sie eine Wallet wiederherstellen (obwohl alle Bezeichnungen, die Sie den Konten/Subadressen zuweisen, separat notiert werden müssen).
+Da Konten und Subadressen deterministisch aus dem Seed abgeleitet werden, müssen Sie nur den Seed kennen, um die Struktur der Konten/Subadressen wiederherzustellen, wenn Sie ein Wallet wiederherstellen (obwohl alle Bezeichnungen, die Sie den Konten/Subadressen zuweisen, separat notiert werden müssen).
 
 <h2><b>Adresse</h2></b>
 
@@ -18,12 +18,13 @@ Wenn Sie Monero an jemanden senden, benötigen Sie nur eine Information, und zwa
 
 Ein Air Gap, Air Wall oder Air Gapping ist eine Netzwerksicherheitsmaßnahme, die auf einem oder mehreren Computern eingesetzt wird, um sicherzustellen, dass ein sicheres Computernetzwerk physisch von ungesicherten Netzwerken, wie dem öffentlichen Internet oder einem ungesicherten lokalen Netzwerk, isoliert ist.
 
-Der Name leitet sich von der Technik ab, mit der ein Netz geschaffen wird, das physisch (mit einer konzeptionellen Luftlücke) von allen anderen Netzen getrennt ist. Die Luftlücke ist nicht unbedingt wörtlich zu nehmen, da Netze, die spezielle kryptografische Geräte verwenden, die Pakete über nicht vertrauenswürdige Netze tunneln und dabei Schwankungen in der Paketrate oder -größe vermeiden können, als Luftlücke betrachtet werden können, da Computer auf gegenüberliegenden Seiten der Lücke nicht kommunizieren können.
+Der Name leitet sich von der Technik ab, mit der ein Netz geschaffen wird, das physisch (mit einer konzeptionellen Luftlücke) von allen anderen Netzen getrennt ist. Die Luftlücke ist nicht unbedingt wörtlich zu nehmen, da Netze, die spezielle kryptografische Geräte verwenden, die Pakete über nicht vertrauenswürdige Netzwerke schicken und dabei Schwankungen in der Paketrate oder -größe vermeiden, könnten als Luftlücke bezeichnetwerden, da Computer auf gegenüberliegenden Seiten der Lücke nicht damit kommunizieren können.
 
 <h2><b>ASIC</h2></b>
 
 Ein anwendungsspezifischer integrierter Schaltkreis (Application-Specific Integrated Circuit, ASIC) ist ein integrierter Schaltkreis (IC), der für einen bestimmten Zweck angepasst wurde und nicht für den allgemeinen Gebrauch bestimmt ist. Ein ASIC ist zum Beispiel ein Chip, der für ein digitales Diktiergerät oder einen hocheffizienten Bitcoin-Miner entwickelt wurde.
-ASIC-Resistenz
+
+<h2><b>ASIC-Resistenz</h2></b>
 
 ASIC-Resistenz bezieht sich auf Maßnahmen, die von einigen Kryptowährungen ergriffen werden, um sicherzustellen, dass ihr Mining-Algorithmus nicht mit diesen speziellen Geräten kompatibel ist. Siehe Kapitel 4, 5 und 6, um mehr darüber zu erfahren, wie die Monero-Gemeinschaft aktiv sicherstellt, dass unser CryptoNight-Algorithmus nur für CPU- und GPU-Miner zugänglich ist.
   
@@ -39,7 +40,7 @@ Blöcke enthalten auch eine spezielle Art von Transaktion, die Coinbase-Transakt
   
 <h2><b>Blockchain</h2></b>
 
-Eine Blockchain ist eine verteilte Datenbank, die kontinuierlich mit einer Aufzeichnung aller Transaktionen wächst, die mit einer bestimmten Kryptowährung stattgefunden haben. Diese Datenbank wird oft als Hauptbuch bezeichnet, da die Daten eine große Liste von Transaktionen enthalten, die stattgefunden haben. In Monero werden diese Transaktionen alle 2 Minuten (im Durchschnitt) in Blöcken zusammengefasst, und alle Miner und Knoten im Netzwerk haben Kopien dieser Blöcke.
+Eine Blockchain ist eine verteilte Datenbank, die kontinuierlich mit einer Aufzeichnung aller Transaktionen wächst, die mit einer bestimmten Kryptowährung stattgefunden haben. Diese Datenbank wird oft als Ledger bezeichnet, da die Daten eine große Liste von Transaktionen enthalten, die stattgefunden haben. In Monero werden diese Transaktionen alle 2 Minuten (im Durchschnitt) in Blöcken zusammengefasst, und alle Miner und Knoten im Netzwerk haben Kopien dieser Blöcke.
 
 <h2><b>Bulletproofs</h2></b>
   
@@ -49,24 +50,24 @@ Bulletproofs sind ein neues mathematisches System für überprüfbare maskierte 
 
 Monero, die als Teil einer Transaktion verschickt werden und auf Ihr Konto zurückkehren, anstatt an einen anderen Empfänger zu gehen.
 
-<h2><b>Coinbase-Transaktion</h2></b>
+<h2><b>Coinbase-Transaction</h2></b>
 
 Eine spezielle Art von Transaktion, die in jedem Block enthalten ist und eine kleine Menge an Monero enthält, die an den Miner als Belohnung für seine Mining-Arbeit gesendet wird.
 
   
-<h2><b>Befehlszeilenschnittstelle CLI</h2></b>
+<h2><b>Command Line Interface</h2></b>
 
 Ein Command Line Interface (oder CLI) ist eine textbasierte Schnittstelle, die zur Eingabe von Befehlen über ein Terminal verwendet wird. Sie können die offizielle Monero CLI (kostenlos und quelloffen) unter https://getmonero.org/downloads/ herunterladen.
 
-<h2><b>Konsens</h2></b>
+<h2><b>Consensus</h2></b>
 
 Konsens beschreibt eine Eigenschaft von verteilten Netzwerken wie Monero, bei denen sich die meisten Teilnehmer an die Regeln halten und somit schlechte Teilnehmer ausschließen.
 
-<h2><b>Kryptowährung</h2></b>
+<h2><b>Cryptocurrency</h2></b>
 
 Eine digitale Währung, bei der Verschlüsselungstechniken verwendet werden, um die Generierung von Währungseinheiten zu regeln und den Geldtransfer zu verifizieren, und die normalerweise unabhängig von einer Zentralbank funktioniert.
 
-<h2><b>Kryptografische Signatur</h2></b>
+<h2><b>Cryptographic Signature</h2></b>
 
 Eine kryptografische Methode zum Nachweis des Eigentums an einer Information sowie zum Nachweis, dass die Information nach dem Signieren nicht verändert wurde.
 
@@ -75,7 +76,7 @@ Eine kryptografische Methode zum Nachweis des Eigentums an einer Information sow
 Bei der Konstruktion einer Monero-Transaktion bezieht sich der Begriff "Decoy" auf eine Ausgabe (die nicht dem Spender gehört), die pseudo-zufällig aus der Blockchain ausgewählt wird, um als Mix-In für die Ringsignatur zu dienen. Siehe Abschnitt 5.4.3.
 
   
-<h2><b>Denominations - Stückelungen</h2></b>
+<h2><b>Denominations</h2></b>
 
 Eine Stückelung ist eine genaue Beschreibung eines Währungsbetrags. Sie ist oft eine Untereinheit der Währung. Zum Beispiel ist ein Cent traditionell 1/100 einer bestimmten Währungseinheit.
 
@@ -94,19 +95,19 @@ Monero-Stückelungsnamen fügen SI-Präfixe hinzu, nachdem das anfängliche "mo"
   kilonero 	  10³ 	      1,000
   meganero 	10⁶ 	        1,000,000
 
-<h2><b>Schwierigkeitsgrad</h2></b>
+<h2><b>Difficulty</h2></b>
 
-Die Schwierigkeit ist ein Netzwerkparameter, der sich darauf auswirkt, wie lange die Schürfer brauchen, um neue Blöcke zu finden, indem er die Messlatte für den Hashwert, der für die Fertigstellung eines Blocks erreicht werden muss, anhebt oder senkt. Wenn mehr Schürfer dem Netzwerk beitreten, erhöht sich die Schwierigkeit, um zu verhindern, dass Blöcke zu schnell entdeckt werden (und umgekehrt, wenn die Hash-Rate des Netzwerks sinkt).
+Die Schwierigkeit ist ein Netzwerkparameter, der sich darauf auswirkt, wie lange die Miner brauchen, um neue Blöcke zu finden, indem er die Messlatte für den Hashwert, der für die Fertigstellung eines Blocks erreicht werden muss, anhebt oder senkt. Wenn mehr Miner dem Netzwerk beitreten, erhöht sich die Schwierigkeit, um zu verhindern, dass Blöcke zu schnell entdeckt werden (und umgekehrt, wenn die Hash-Rate des Netzwerks sinkt).
 
-<h2><b>Verschlüsselung</h2></b>
+<h2><b>Encyrption</h2></b>
 
-In der Kryptografie ist Verschlüsselung der Prozess, bei dem Nachrichten oder Informationen so verschlüsselt werden, dass nur autorisierte Parteien die gesendeten Daten entschlüsseln und lesen können. Die Verschlüsselung selbst verhindert nicht das Abfangen von Nachrichten, sondern verweigert dem Abfangjäger den Zugang zum Inhalt der Nachricht.
+In der Kryptografie ist Verschlüsselung der Prozess, bei dem Nachrichten oder Informationen so verschlüsselt werden, dass nur autorisierte Parteien die gesendeten Daten entschlüsseln und lesen können. Die Verschlüsselung selbst verhindert nicht das Abfangen von Nachrichten, sondern verweigert dem Abfänger den Zugang zum Inhalt der Nachricht.
 
-<h2><b>Gebühren</h2></b>
+<h2><b>Fees</h2></b>
 
 Jede Transaktion beinhaltet eine Gebühr, die von dem Miner eingezogen wird, der die Transaktion in einen abgeschlossenen Block aufnimmt. Benutzer mit Transaktionen mit hoher Priorität können eine relativ hohe Gebühr erheben, um den Minern einen Anreiz zu geben, die Transaktion früher zu bestätigen.
 
-<h2><b>Fungibilität(Eintauschbarkeit)</h2></b>
+<h2><b>Fungibilty</h2></b>
 
 In der Wirtschaftswissenschaft ist Fungibilität die Eigenschaft eines Gutes oder einer Ware, deren einzelne Einheiten im Wesentlichen austauschbar sind. Kryptowährungen mit transparenten Ledgern fehlt diese Eigenschaft, da jeder Coin eine einzigartige Geschichte hat, deren Verlauf öffentlich aufgezeichnet wird. Monero erreicht die Fungibilität durch die Kombination mehrerer Datenschutztechnologien, die verhindern, dass diese schädlichen Informationen auf der Blockchain gespeichert werden, und macht so alle Moneroj ununterscheidbar.
 
@@ -117,7 +118,8 @@ Ein Block setzt sich aus einem Header und Transaktionen zusammen. Fluffy Blocks 
 <h2><b>I2P</h2></b>
 
 Das I2P Netzwerk bietet einen starken Schutz der Privatsphäre bei der Kommunikation über das Internet. Viele Aktivitäten, die im öffentlichen Internet ein Risiko für die Privatsphäre darstellen würden, können innerhalb von I2P anonym durchgeführt werden.
-Integrierte Adresse
+
+<h2><b>Integrated address</h2></b>
 
 Eine integrierte Adresse ist eine Adresse, die mit einer verschlüsselten 64-bit Zahlungs-ID kombiniert ist. Eine rohe integrierte Adresse ist 106 Zeichen lang.
 
@@ -129,7 +131,7 @@ Kovri ist eine C++ Implementierung des I2P Netzwerks. Kovri befindet sich derzei
 
 Der Prozess der kryptographischen Berechnung eines mathematischen Beweises für einen Block, der eine Anzahl von Transaktionen enthält, die dann der Blockchain hinzugefügt werden.
 
-Mining ist der verteilte Prozess der Bestätigung von Transaktionen im öffentlichen Hauptbuch aller Transaktionen, auch bekannt als Blockchain. Monero-Knoten verwenden die Blockchain, um legitime Transaktionen von Versuchen zu unterscheiden, Münzen, die bereits an anderer Stelle ausgegeben wurden, erneut auszugeben.
+Mining ist der verteilte Prozess der Bestätigung von Transaktionen im öffentlichen Ledger aller Transaktionen, auch bekannt als Blockchain. Monero-Knoten verwenden die Blockchain, um legitime Transaktionen von Versuchen zu unterscheiden, Münzen, die bereits an anderer Stelle ausgegeben wurden, erneut auszugeben.
 
 Monero wird ausschließlich durch Proof of Work betrieben. Es verwendet einen Mining-Algorithmus, der das Potenzial hat, effizient auf Milliarden von existierenden Geräten (jede moderne x86-CPU und viele GPUs) angewendet zu werden. Monero verwendet den CryptoNight Proof of Work (PoW) Algorithmus, der für den Einsatz in gewöhnlichen CPUs und GPUs konzipiert ist.
 
@@ -151,7 +153,7 @@ Ein Gerät im Internet, auf dem die Monero-Software läuft, mit einer vollständ
 
 Im Grunde ist OpenAlias ein TXT-DNS-Eintrag für einen FQDN (vollqualifizierter Domainname). Das Monero Core Team hat einen Standard namens OpenAlias veröffentlicht, der viel besser lesbare Adressen ermöglicht und das Zooko-Dreieck "quadriert". OpenAlias kann für jede Kryptowährung verwendet werden und ist bereits in Monero implementiert.
 
-<h2><b>Payment-ID - Zahlung-ID</h2></b>
+<h2><b>Payment-ID</h2></b>
 
 Die Zahlungs-ID ist ein beliebiger und optionaler Transaktionszusatz, der aus 32 Byte (64 hexadezimale Zeichen) oder 8 Byte (im Falle von integrierten Adressen) besteht.
 
@@ -167,11 +169,11 @@ $ openssl rand -hex 32
 
 <h2><b>Pedersen-Commitment</h2></b>
 
-Pedersen Commitments sind kryptografische Algorithmen, die es einem Prover erlauben, sich auf einen bestimmten Wert festzulegen, ohne diesen zu verraten oder ihn ändern zu können.
+Pedersen Commitments sind kryptografische Algorithmen, die es einem Prober erlauben, sich auf einen bestimmten Wert festzulegen, ohne diesen zu verraten oder ihn ändern zu können.
 
-Wenn Sie Monero ausgeben, werden der Wert der Inputs, die Sie ausgeben, und der Wert der Outputs, die Sie senden, verschlüsselt und sind für jeden außer dem Empfänger der Outputs undurchsichtig. Pedersen Commitments ermöglichen es Ihnen, Monero zu versenden, ohne den Wert der Transaktionen preiszugeben. Pedersen-Verpflichtungen ermöglichen es auch, zu überprüfen, ob die Transaktionen auf der Blockchain gültig sind und Monero nicht aus der Luft gegriffen ist.
+Wenn Sie Monero ausgeben, werden der Wert der Inputs, die Sie ausgeben, und der Wert der Outputs, die Sie senden, verschlüsselt und sind für jeden außer dem Empfänger der Outputs undurchsichtig. Pedersen Commitments ermöglichen es Ihnen, Monero zu versenden, ohne den Wert der Transaktionen preiszugeben. Pedersen-Verpflichtungen ermöglichen es auch, zu überprüfen, ob die Transaktionen auf der Blockchain gültig sind und Monero nicht aus dem Nichts erschaffen wurden.
 
-Solange die verschlüsselten Ausgabebeträge, die eine Ausgabe für den Empfänger und eine Wechselgeldausgabe zurück an den Absender umfassen, und die unverschlüsselte Transaktionsgebühr der Summe der ausgegebenen Eingaben entsprechen, handelt es sich um eine legitime Transaktion und es kann bestätigt werden, dass Monero nicht aus der Luft gegriffen ist.
+Solange die verschlüsselten Ausgabebeträge, die eine Ausgabe für den Empfänger und eine Wechselgeldausgabe zurück an den Absender umfassen, und die unverschlüsselte Transaktionsgebühr der Summe der ausgegebenen Eingaben entsprechen, handelt es sich um eine legitime Transaktion und es kann bestätigt werden, dass Monero nicht aus dem Nichts geschaffen ist.
 
 Pedersen-Verpflichtungen bedeuten, dass die Summen als gleich verifiziert werden können, aber der Monero-Wert jeder der Summen und der Monero-Wert der einzelnen Inputs und Outputs sind unbestimmbar. Pedersen-Verpflichtungen bedeuten auch, dass sogar das Verhältnis von einem Input zu einem anderen oder von einem Output zu einem anderen unbestimmbar ist.
 
